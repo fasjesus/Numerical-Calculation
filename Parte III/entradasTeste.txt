@@ -1,0 +1,54 @@
+Métodos de Solução numérica de EDOs:
+    Euler;                                          (função; n; a; b; h)
+    Heun (com múltiplas iterações);                 (função; n; a; b; h)
+    Euler Modificado;                               (função; n; a; b; h)
+    Ralston;                                        (função; n; a; b; h)
+    Runge-Kutta de 4ª ordem;                        (função; n; a; b; h)
+    Sistemas de EDO (ou EDOs de ordem superior);
+    Shooting;                                       (função;valor inicial de “y”; intervalo de chute separados por uma vírgula (“,”);final desejado;“h”;“n”)
+    Diferenças Finitas;                             (h; n; x, a; b; Ta)
+
+>>> 12.3
+
+x0 - 0
+y0 - 0
+n = 50
+h = 1
+(2000 - 2 * y) / (200 - x)
+
+(2000 - 2 * y) / (200 - x)
+50
+0
+0
+1
+===============================================================
+
+>>> 12.10
+
+x0 - 0
+y0 - 10000
+0.075 * y
+h = 0.5
+n = 40
+
+0.075 * y
+40
+0
+10000
+0.5
+
+
+=================================================================
+EXEMPLO DO SLIDE
+
+diferenças finitas:
+0.01 
+10
+10
+40 
+200 
+20
+
+Shooting:
+73.4523*math.e**(0.1*x)-53.4523*math.e**(-0.1*x)+20;20;0,40;200;0.01;10
+
