@@ -1,6 +1,6 @@
 ================ PROBLEMA 3.6 ====================
 
-Intervalo: [5.0, 6.0]
-A raiz encontrada é: 5.62273161257179
-Valor da função aplicada à raíz é: 0.0189200414390717
-Número de iterações necessário: 15
+Intervalo: [2.5, 3]
+A raiz encontrada é: 2.75
+Valor da função aplicada à raíz é: 0.381660992052332/tan(40) + 0.124302378632464
+Número de iterações necessário: 1
